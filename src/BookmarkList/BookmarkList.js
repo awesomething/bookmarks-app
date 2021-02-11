@@ -10,6 +10,7 @@ class BookmarkList extends Component {
   render() {
     const { bookmarks } = this.props
     return (
+      
       <section className='BookmarkList'>
         <h2>Your bookmarks</h2>
         <ul className='BookmarkList__list' aria-live='polite'>
